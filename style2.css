@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+section {
+    color:rgb(6, 72, 255);
+    font: normal 100px italic;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    background-color: rgb(233, 250, 250);
+    border-radius: 25px
+}

@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+}
+section {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(191, 248, 248);
+    border-radius: 25px
+}
