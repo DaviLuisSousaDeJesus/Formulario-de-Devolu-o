@@ -12,37 +12,39 @@
     <fieldset>
         
         <legend>Dados do Cliente</legend>
-        <form action="">
-            <nav>
-             <label for="">Nome Completo</label><br>
-            <input type="text" name="Nome" id="Nome" required>
+        <form action="" id="meuFormulario">
+            
+
+             <label for="" >Nome Completo</label >
+            <input type="text" name="Nome"  placeholder='Seu Nome' required>
+
             <p> CPF:</p>
-            <input type="text" name="cpf" id="cpf" placeholder="Ex:00.000.000-00">
+            <input type="text" name="cpf" id="cpf" placeholder="Ex:000.000.000-00" required>
             <p>Logradouro:</p>
-            <input type="text" name="rua" id="rua">
+            <input type="text" name="rua" id="rua" required>
             <p>Número:</p>
-            <input type="number" name="ncasa" id="ncasa">
+            <input type="number" name="ncasa" id="ncasa" required>
             <p>Complemento:</p>
-            <input type="text" name="compl" id="compl">
+            <input type="text" name="compl" id="compl" required>
             <p>Telefone:</p>
-            <input type="tel" name="tel" id="tel" placeholder="Ex:(00)0 0000-0000">
+            <input type="tel" name="tel" id="tel" placeholder="Ex:(00)0 0000-0000" required>
             <p>Bairro ou Distrito:</p>
-            <input type="text" name="bairro" id="bairro">
+            <input type="text" name="bairro" id="bairro" required>
             <p>CEP:</p>
-            <input type="text" name="cep" id="cep" placeholder="00000-000">
+            <input type="text" name="cep" id="cep" placeholder="00000-000" required>
             <p>Múnicipio:</p>
-            <input type="text" name="Muni" id="Muni">
+            <input type="text" name="Muni" id="Muni" required>
             <p>E-mail:</p>
-            <input type="text" name="email" id="email">
+            <input type="text" name="email" id="email" required>
                 <br>
                 <br>
-                <a href="Devolução.html"><input type="button" value="Confirmar" id="Nome"></a>
-            </nav>
+                <button type="submit" id="pmbs">Enviar</button>
         </form>
-    
     </fieldset>
 </section>
-  
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
