@@ -20,7 +20,7 @@ button{
 border-bottom-width: 3px;
 border-radius: 50%;
 cursor: pointer;
-transition: 0.8;
+transition: 0.8s;
 }
 button:hover{
 
