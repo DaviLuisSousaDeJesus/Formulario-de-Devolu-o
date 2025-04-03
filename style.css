@@ -4,6 +4,9 @@ body{
 header{
     text-align: center;
 }
+h1{
+color:white;
+}
 section{
     margin: auto;
     text-align: center;
